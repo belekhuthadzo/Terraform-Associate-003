@@ -193,18 +193,6 @@ export AWS_ACCESS_KEY_ID="<YOUR ACCESS KEY>"
 export AWS_SECRET_ACCESS_KEY="<YOUR SECRET KEY>"
 ```
 
-If you're running PowerShell on Windows, you'll need to use the following to set your AWS credentials:
-```shell
-PS C:\> $Env:AWS_ACCESS_KEY_ID="<YOUR ACCESS KEY>"
-PS C:\> $Env:AWS_SECRET_ACCESS_KEY="<YOUR SECRET KEY>"
-```
-
-If you're using the default Windows command prompt, you can use the following to set your AWS credentials:
-```shell
-C:\> setx AWS_ACCESS_KEY_ID <YOUR ACCESS KEY>
-C:\> setx AWS_SECRET_ACCESS_KEY <YOUR SECRET KEY>
-```
-
 [More information on setting credentials for AWS can be found here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
 ## Task 9: Deploy the AWS infrastructure using Terraform
