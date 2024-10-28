@@ -1,5 +1,5 @@
 # Terraform-Associate-003
-# Lab: Benefits of IaC
+## Lab: Benefits of IaC
 
 You have been tasked with deploying some basic infrastructure on AWS to host a proof of concept environment. The architecture needs to include both public and private subnets and span multiple Availability Zones to test failover and disaster recovery scenarios. You expect to host Internet-facing applications. Additionally, you have other applications that need to access the Internet to retrieve security and operating system updates.
 
@@ -16,3 +16,4 @@ You have been tasked with deploying some basic infrastructure on AWS to host a p
 
 The end state of the AWS environment should look similar to the following diagram:
 ![obj-1-desired-infrastructure](https://github.com/user-attachments/assets/792a2764-5c2d-42c0-9dad-8f4e58d133e0)
+
