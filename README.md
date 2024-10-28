@@ -404,13 +404,13 @@ At this point, Terraform has created new resources in our AWS account that match
 
 The final step is to destroy all of the resources created by Terraform. By using Terraform to destroy the resources, you will ensure that every single resource deployed with Terraform is destroyed from your account. This ensures you don't leave anything behind that could incur costs or leave behind technical debt.
 
-To destroy your resources, execute the following command in the terminal. You should see Terraform refresh the state of each resource and subsequently destroy it in the proper order.
+To destroy resources, execute the following command in the terminal. You should see Terraform refresh the state of each resource and subsequently destroy it in the proper order.
 
 ```shell
 terraform destroy -auto-approve
 ```
 
-You should an output similar to the following:
+You should see an output similar to the following:
 
 ```shell
 aws_nat_gateway.nat_gateway: Destroying... [id=nat-037dd8aec387c4069]
@@ -437,5 +437,3 @@ aws_vpc.vpc: Destruction complete after 1s
 
 Destroy complete! Resources: 18 destroyed.
 ```
-
-### **Congratulations, you've reached the end of this lab.**
